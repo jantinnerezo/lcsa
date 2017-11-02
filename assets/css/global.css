@@ -1,0 +1,190 @@
+
+/* reset default styling */
+body{
+    margin:0;
+    padding:0;
+    background: #f4f4f4;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+a{
+    cursor: pointer;
+}
+
+
+/* Global styles start */
+
+#home{
+    margin-top:20px;
+}
+.title{
+    font-weight: bold;
+    color: #ec407a;
+}
+
+.aim{
+    color: #868e96;
+}
+
+.how{
+
+}
+
+.ip{
+    font-size: 30px;
+}
+
+.students{
+
+    margin-top: 30px;
+}
+.showcase h2{
+   
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    
+}
+
+.students .card{
+    margin-top:30px;
+}
+ 
+.students table{
+    font-size:15px;
+}
+.students thead{
+    background-color: #ec407a;
+    color: #fff;
+}
+.students tbody{
+    background-color:#fff;
+}
+
+
+
+
+#search{
+
+    cursor: pointer;
+}
+
+.pagination-links{
+    margin:30px 0;
+}
+a.pagination-links{
+    padding: 8px 13px;
+    margin:5px;
+    background: #f4f4f4;
+    border: 1px px solid #333;
+}
+
+
+
+.edit{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+}
+.edit .form{
+
+    width:400px;
+}
+
+
+.attendance .card{
+
+    margin-top:10px;;
+}
+.attendance table {
+    /* margin-top: 30px; */
+    font-size: 15px;
+}
+
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom:0 !important;
+    background-color: transparent;
+}
+
+.attendance{
+    margin-top:30px;
+}
+
+.attendance table{
+    font-size: 15px;
+}
+.attendance thead{
+    background-color: #EC4079;
+    color: #fff;
+}
+.attendance tbody{
+    background-color:#fff;
+}
+.table td, .table th {
+    padding: 10px !important;
+    vertical-align: middle !important;
+    border-top: 1px solid #e9ecef;
+}
+
+
+.checkers{
+    margin-top:30px;
+}
+.checkers .card{
+    margin-top: 30px;
+}
+.checkers thead{
+    background-color: #ec407a;
+    color: #fff;
+}
+.checkers tbody{
+    background-color:#fff;
+}
+
+.empty{
+
+    margin-top: 30px;
+   
+
+}
+
+.flex-page{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    height:100vh;
+    
+}
+
+.flex-page .form-container{
+
+    width:300px;
+}
+#confirm{
+    
+    display:none;
+}
+
+#confirm.remove{
+
+    display: inline;
+}
+
+.student-toolbar{
+
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+}
+
+.students table{
+
+    margin-top: 10px;
+}
